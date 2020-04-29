@@ -6,6 +6,11 @@ html {
 }
 
 body {
+	width: 100vw;
+	height: 100vw;
+	margin: 0;
+	padding: 0;
+	top:0;
 	font-family: 'Lato', sans-serif;
 
 	header {
@@ -18,6 +23,10 @@ body {
 
 	footer {
 		border-top: 1px solid #0093CF36;
+	}
+
+	button {
+		outline: none !important;
 	}
 }
 
@@ -216,7 +225,7 @@ body {
 				padding-top: 30px;
 				color: #00BBE5;
 				font-weight: bold;
-				font-size: 15px;
+				font-size: 14px;
 			}
 
 			.card-title {
@@ -226,7 +235,7 @@ body {
 				font-weight: bold;
 				font-size: 19px;
 				overflow: hidden;
-				height: 70px;
+				height: 65px;
 			}
 
 			.card-author {
@@ -258,11 +267,11 @@ body {
 		margin: 0;
 		padding: 50px 0;
 		list-style-type: none;
-
+		
 		li {
 			margin: 0 0.25rem;
 		}
-
+		
 		button {
 			display: block;
 			width: 13px;
@@ -327,6 +336,10 @@ body {
 					position: absolute;
 					top: 140px;
 					padding-left: 10px;
+					width: 300px;
+					button {
+						// margin-right: 15px;
+					}
 				}
 
 				button {
